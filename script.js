@@ -25,8 +25,8 @@ console.log(movies);
 var moviedetails={
   title:"Captain Marvel",time:"2pm"
 };
-alert(movie.title);
-movie.status="unavailable";
+alert(moviedetails.title);
+moviedetails.status="unavailable";
 console.log(movie);
 
 
@@ -35,7 +35,7 @@ for (i=1;i<10;i++){fruits[i]=prompt("enter fruit");
 }
 alert("fruits contains"+ fruits);
 
-for(var movie of movieDetails){
+for(var movie of moviedetails){
   if(movie.status==="available"){
     console.log("the movie"+ movie.tittle+" plays at"+ movie.time)
   }
